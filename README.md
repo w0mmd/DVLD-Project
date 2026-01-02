@@ -1,73 +1,43 @@
 DVLD – Driving & Vehicle Licensing Department System
 
-DVLD is a real-world desktop application that simulates the core operations of a Driving & Vehicle Licensing Department.
-The project is designed to reflect actual government workflows related to driver licensing, applications, tests, and license lifecycle management.
+DVLD is a real-world desktop application that simulates the core operations of a Driving & Vehicle Licensing Department. The project is designed to reflect actual government workflows related to driver licensing, applications, driving tests, and license lifecycle management.
 
-This system was developed as a practical, production-style project, focusing on real business rules rather than simple CRUD operations.
+This system was developed as a practical, production-style project, focusing on implementing real business rules and workflows rather than simple CRUD operations.
 
-✨ Key Features
+Key Features
 
 People & Drivers Management
-
-Manage citizens and drivers data
-
-Link people to drivers and licenses
+Manage citizens and drivers data, and link people to drivers and their licenses.
 
 License Applications
-
-Local Driving License Applications
-
-International Driving License Applications
-
-Renew, Replace (Lost/Damaged), and Release Detained Licenses
+Support for Local Driving License Applications, International Driving License Applications, license renewal, replacement (lost or damaged), and release of detained licenses.
 
 Driving Tests Workflow
-
-Vision Test
-
-Written Test
-
-Street Test
-
-Enforced test order based on real regulations
+Includes Vision Test, Written Test, and Street Test, with enforced test order based on real regulations and application status.
 
 Licenses Management
-
-Issue Local and International Licenses
-
-View license history
-
-Activate and deactivate licenses
+Issue local and international licenses, view full license history, and activate or deactivate licenses.
 
 Detained Licenses
-
-Detain and release licenses
-
-Track detention records and status
+Detain and release licenses, and track detention records and license status.
 
 Users & Security
+Secure login system with user roles and permissions.
 
-Login system with user roles and permissions
+Architecture
 
-🏗️ Architecture
-
-The project follows a 3-Tier Architecture:
+The project follows a clean 3-Tier Architecture:
 
 Presentation Layer
-
-Windows Forms (WinForms)
+Windows Forms (WinForms) for the user interface.
 
 Business Logic Layer (BLL)
-
-Implements real business rules and validations
+Implements real business rules, validations, and workflow enforcement.
 
 Data Access Layer (DAL)
+SQL Server integration using ADO.NET with parameterized queries and structured data handling.
 
-SQL Server with ADO.NET
-
-Parameterized queries and clean data handling
-
-🛠️ Technologies Used
+Technologies Used
 
 C# (.NET Framework)
 
@@ -81,24 +51,9 @@ Object-Oriented Programming (OOP)
 
 Inheritance and Composition
 
-DataTables and DataViews
+Project Purpose
 
-🎯 Project Purpose
+This project was built to simulate a real governmental licensing system and to demonstrate strong understanding of OOP principles, multi-layer application design, real business logic implementation, and database-driven desktop development.
 
-This project was built to simulate a real governmental licensing system and to demonstrate:
+All workflows are implemented based on realistic DVLD rules. The project is structured for scalability and maintainability and is intended for learning, demonstration, and portfolio purposes.
 
-Strong understanding of OOP principles
-
-Multi-layer application design
-
-Real business logic implementation
-
-Database-driven desktop development
-
-📌 Notes
-
-All workflows are implemented based on realistic DVLD rules.
-
-The project is structured for scalability and maintainability.
-
-Intended for learning, demonstration, and portfolio purposes.
